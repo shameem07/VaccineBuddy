@@ -36,9 +36,7 @@ class CenterDetails : Fragment() {
         val centerid = sh.getString("centerid","")
         val addressf = sh.getString("address","")
 
-//        Log.i("ADAPT","centername = "+ centername)
-        Log.i("ADAPT","centerid = "+ centerid)
-        Log.i("ADAPT","address = "+ addressf)
+
 
         val namedisplay = requireActivity().findViewById(R.id.centernameforlocate) as TextView
         val iddisplay = requireActivity().findViewById(R.id.centeridforlocate) as TextView
